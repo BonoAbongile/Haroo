@@ -1,0 +1,241 @@
+ @import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+  padding: 0;
+  margin: 0;
+ }
+* {
+   padding: 0;
+   margin: 0;
+ }
+ a {
+   text-decoration: none;
+ }
+body, header {
+  font-family: Raleway;
+}
+
+header {
+  background-image: url('images/bea.jpg');
+  background-position: bottom;
+  background-size: cover;
+  height: 700px;
+}
+
+.login-reg-banner {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+}
+
+.hotel-link {
+  width: 20%;
+  position: relative;
+}
+
+.profile-container:hover .logout-link {
+  opacity: 1;
+  cursor: pointer;
+}
+.logout-link {
+    width: 100px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 13px 13px 12px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 43px;
+    left: 65px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.logo-container-banner {
+  width: 55%;
+  position: relative;
+}
+.profile-container {
+  width: 20%;
+  position: relative;
+}
+.profile-contry {
+  width: 5%;
+  position: relative;
+}
+
+.hotel-link p {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.hotel-link p a {
+  color: #000;
+}
+.logo-container-banner .logo {
+  position: absolute;
+  top: 10px;
+  left: 49%;
+  font-weight: 500;
+}
+.logo-container-banner .logo .ha {
+    margin: -5px;
+    color: crimson;
+}
+.logo-container-banner .logo .roo {
+  color: #0f87c6;
+}
+.profile-container .profile-name {
+  position: absolute;
+  top: 10px;
+  left: 35%;
+}
+.profile-contry .country-name {
+  position: absolute;
+  top: 10px;
+}
+
+
+
+
+.h{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 130px;
+}
+.a{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.buttonh{
+  width:100%;
+  height: 100px;
+  position: relative;
+}
+.c{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #0f87c6;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  font-family: Raleway;
+}
+nav {
+  display: flex;
+  font-family: monospace;
+  background-color: #0f87c6;
+  width: 100%;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-size: 20px;
+    width: 20%;
+}
+.search {
+   display: flex;
+    background-color: #dd2435;
+    width: 65%;
+    margin: auto;
+    justify-content: center;
+    padding: 40px;
+}
+.input{
+  width: 180px;
+  height: 40px;
+  border-radius: 7px;
+  border: 0.5px solid white;
+  font-family: Raleway;
+  margin: 5px;
+  /* padding: 10px; */
+}
+.form-h1{
+  font-size: 17px;
+  font-family: Raleway;
+  color: white;
+  font-weight: bolder;
+  width: 30%;
+}
+.buttonh{
+  width:100%;
+  height: 100px;
+  position: relative;
+}
+.button {
+  width:180px;
+  height: 40px;
+  position: relative;
+  margin: 2px;
+  background-color: #0f87c6;
+  border: none;
+  font-family: Raleway;
+  color: white;
+  cursor: pointer;
+}
+.heading {
+  font-size: 30px;
+  font-family: Raleway;
+  text-align: center;
+  color: #0f87c6;
+  text-decoration: none;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.hotels-container {
+  width: 100;
+  display: flex;
+  flex-direction: column;
+}
+.hotel {
+    width: 97%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 20px lightgrey;
+    transition: all .5s;
+}
+.hotel:hover {
+  transform: translateY(-10px);
+}
+.column {
+  width: 400px;
+  height: 310px;
+  padding: 20px;
+}
+img {
+  width: 350px;
+  height: 250px;
+}
+.column h1 {
+  font-size: 30px;
+  color: #0f87c6;
+}
+.column p {
+  font-size: 19px;
+
+}
+
+.column h2 {
+  font-size: 30px;
+  color: #fcc203;
+  padding-left: 5px;
+  padding-bottom: 60px;
+
+
+}

@@ -1,0 +1,80 @@
+html , body {
+ margin: 0;
+ padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+.form-content * {
+    margin: 10px;
+    padding: 8px;
+}
+#my-form {
+    width: 100%;
+    position: relative;
+}
+
+#my-form .reg-hotel-btn-container {
+    position: absolute;
+    bottom: -30%;
+    left: 36%;
+}
+.hotel-ratings .rating-options {
+    margin-right: 33px;
+}
+.hotel-social-plat {
+    height: 270px;
+    display: flex;
+    width: 100%;
+}
+#my-form .reg-hotel-btn-container #hotel-reg-btn {
+    padding: 10px 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#my-form .input {
+    height: 60px;
+    display: flex;
+    width: 100%;
+}
+#my-form .rooms-input-plat,
+#my-form .rooms-input-plat2 {
+    height: 450px;
+} 
+
+#my-form .input label,
+.hotel-social-plat label {
+    font-size: 20px;
+} 
+
+#my-form .input *,
+.hotel-social-plat * {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.container {
+    width: 100%;
+    height: 2200px;
+    background: linear-gradient(#52a3d9c2, #b7d5f2b4), url('../Login&Reg/images/tree.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.form-container {
+    background-color: #0f86c69f;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="icon" type="image/png" href="../Login&Reg/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,700,900&display=swap" rel="stylesheet">
+    <title>Hotel Content Upload Page</title>
+</head>
+<body>
+   <div class="container">
+        <div class="form-container">
+            <form id="my-form">
+                <div class="form-content">
+                   <h2> Register your Hotel</h2>
+                   <p>Please provide all required details to register your Hotel with us </p>
+                </div>
+                <div class="hotel-name input">
+                    <label> Hotel Name </label>
+                    <input type="text" id="hotel-name" placeholder="Hotel Name">
+                </div>
+                <div class="hotel-number input">
+                        <label> Contact Number </label>
+                        <input type="tel" id="hotel-number" placeholder="Hotel Number">
+                </div>
+                <div class="hotel-email input">
+                    <label> Email </label>
+                    <input type="email" id="hotel-email" placeholder="Hotel Email">
+                </div>
+                <div class="hotel-address input">
+                    <label> Address </label>
+                    <input type="text" id="hotel-address" placeholder="Hotel Address">
+                </div>
+                <div class="hotel-ratings input">
+                    <label> Hotel Rating </label>
+                    <select class="rating-options">
+                        <option value="1 star"> 1 star </option>
+                        <option value="2 star"> 2 star </option>
+                        <option value="3 star"> 3 star </option>
+                        <option value="4 star"> 4 star </option>
+                        <option value="5 star"> 5 star </option>
+                    </select>
+                </div>
+                <div class="hotel-social-plat">
+                    <label> Social Platform </label>
+                    <div class="social-inputs">
+                        <input type="text"  id="facebook" placeholder="Facebook">
+                        <input type="text"  id="twitter" placeholder="Twitter">
+                        <input type="text"  id="instagram" placeholder="Instagram">
+                        <input type="text"  id="linkedin" placeholder="Linkedin">
+                    </div>
+                </div>
+                <div class="rooms-input-plat input">
+                    <label> First Room </label>
+                    <div class="rooms-inputs">
+                        <input type="text" id="room-name" placeholder="Room  Name">
+                        <input type="text"  id="room-price" placeholder="Price">
+                        <input type="text"  id="room-max" placeholder="Max people">
+                        <input type="text"  id="room-childAllowed" placeholder="Is child allowed ? true or false">
+                        <input type="text"  id="room-size" placeholder="Size , in cm">
+                        <input type="text"  id="room-bed" placeholder="Bed type">
+                        <input type="text"  id="room-range" placeholder="Range of rooms">
+                    </div>
+                </div>
+
+                <div class="rooms-input-plat2 input">
+                        <label> Sec Room </label>
+                        <div class="rooms-inputs2">
+                            <input type="text" id="room-name2" placeholder="Room  Name">
+                            <input type="text"  id="room-price2" placeholder="Price">
+                            <input type="text"  id="room-max2" placeholder="Max people">
+                            <input type="text"  id="room-childAllowed2" placeholder="Is child allowed ? true or false">
+                            <input type="text"  id="room-size2" placeholder="Size , in cm">
+                            <input type="text"  id="room-bed2" placeholder="Bed type">
+                            <input type="text"  id="room-range2" placeholder="Range of rooms">
+                        </div>
+                    </div>
+
+                    <div class="rooms-input-plat3 input">
+                            <label> Third Room </label>
+                            <div class="rooms-inputs3">
+                                <input type="text" id="room-name3" placeholder="Room  Name">
+                                <input type="text"  id="room-price3" placeholder="Price">
+                                <input type="text"  id="room-max3" placeholder="Max people">
+                                <input type="text"  id="room-childAllowed3" placeholder="Is child allowed ? true or false">
+                                <input type="text"  id="room-size3" placeholder="Size , in cm">
+                                <input type="text"  id="room-bed3" placeholder="Bed type">
+                                <input type="text"  id="room-range3" placeholder="Range of rooms">
+                            </div>
+                        </div>
+
+
+                <div class="reg-hotel-btn-container">
+                    <button id="hotel-reg-btn" type="submit"> Upload </button>
+                </div>
+            </form>
+        </div>
+   </div>
+
+
+   <script src="hotel.js"> </script>
+</body>
+</html>

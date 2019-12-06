@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+margin: 100px;
+font-family: 'Raleway';
+}
+
+.form-structure label {
+  color: white;
+  text-transform: uppercase;
+  margin: 5px;
+  letter-spacing: 1.5px;
+  margin-left: 125px;
+
+}
+.heading img{
+  width: 150px;
+}
+.two{
+  background: url('images/table.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.pins{
+  width: 50%
+}
+.form{
+  margin: 50px;
+  width: 60%;
+  border: 2px solid crimson;
+  height: 70%;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  
+}
+.form h2{
+  text-align: center;
+  letter-spacing: 6px;
+  font-weight: bolder;
+}
+.form label {
+  text-align: center;
+  margin: 31px;
+  letter-spacing: 2px;
+}
+.date{
+  width: 300px;
+  border-radius: 5px;
+  height: 40px;
+  border: 0;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+#button {
+  height: 40px;
+  width:300px;
+  font-family: 'Raleway';
+  letter-spacing: 2.5px;
+  margin-left: 30px;
+  border: 2px solid crimson;
+  border-radius: 5px;
+  background-color: #0f87c6;
+  margin-top: 20px;
+  color: #fff;
+}
+.side{
+  display: flex;
+  width: 100%;
+}
+.left{
+width: 30%;
+}
+#left{
+  width: 70%;
+  margin-left: 50px;
+}
+.icons-3 {
+  display: flex;
+}
+.icons-3 li{
+  width:250px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.icons-4{
+  display: flex;
+}
+.icons-4 li{
+  width: 300px;
+  line-height:2;
+  letter-spacing: 1px;
+}
+
+ a{
+   font-size: 20px;
+   color: crimson;
+  text-decoration: none;
+}
+.map img{
+  width: 300px;
+  height: 200px;
+}
+.button{
+  border: 1px solid crimson;
+  background: #fff;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+/* rooms */
+
+.containers{
+  display: flex;
+  width:790px;
+}
+.containers .half{
+  width: 50%;
+}
+#containers{
+  display: flex;
+  width: 790px;
+  background: gray;
+  margin-top: 10px ;
+}
+#containers .half{
+  width: 25%;
+}
+
+.four{
+  padding: 20px;
+}
+.four button{
+  background: crimson;
+  padding: 20px;
+  border: none;
+}
+span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: 20px;
+}
+.half button{
+  border: 1px solid gray;
+  background: #fff;
+  padding: 10px;
+  letter-spacing: 2px;
+  margin-top: 18px;
+}
+span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: 20px;
+}
+/* location */
+/* facilities */
+.list {
+  display: flex;
+}
+.list li{
+  width:250px;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+/* gallery */
+.containerss{
+  width: 100%;
+  display: flex;
+}
+.image{
+width: 30%;
+
+}
+
+.image img{
+  height: 300px;
+  width: 250px;
+  justify-content: space-around;
+}
+
+#location .loc{
+  background-image: url('images/loc.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+  
+}
+#location input{
+  height: 40px;
+  border: 1px solid #3333;
+  border-radius: 5px;
+}
+.checkbox{
+  display: flex;
+  width: 60%;
+height: 50px;
+  
+}
+.checkbox p {
+  font-size: 15px;
+  padding: 15px;
+
+}
+.checkbox div{
+  background-color:  #3988DF;
+  width: 400px;
+}
+.radio{ 
+  background-color: #3333;
+  height: 50px;
+  width: 400px;
+}
+.radio input {
+padding: 15px;
+}
+/* review */
+#rooms{
+display: none;
+}
+#facilities{
+  display: none;
+  }
+  #gallery{
+    display: none;
+    }

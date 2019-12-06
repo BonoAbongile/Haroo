@@ -1,0 +1,183 @@
+body, html {
+  padding: 0;
+  margin: 0; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif; }
+
+body {
+  background-image: linear-gradient(#52a3d9c2, #b7d5f2b4),url("images/smooth.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 700px;
+}
+
+#paste {
+  position: absolute;
+    top: 160%;
+    left: -27%;
+}
+.top {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden; 
+}
+  .top__logo-container {
+    width: 34%;
+    height: inherit;
+    margin: 0 31%; 
+}
+  .top__logo {
+    position: absolute;
+    top: 10px;
+    left: 49%;
+    transform: translate(-50%, 0); 
+}
+.for-errors {
+  position: absolute;
+    top: 50%;
+    left: -62%;
+}
+.for-login-errors {
+  position: absolute;
+  top: 20%;
+  left: 72px;
+}
+.for-hotel-errors {
+  position: absolute;
+    top: 23%;
+    left: 75%;
+    width: 140px;
+}
+
+.paste {
+  position: absolute;
+  top: 19%;
+  left: 368px;
+  width: 140px;
+}
+.bottom {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  display: flex;
+}
+.user-form {
+  width: 50%;
+}
+
+.hotel-form {
+  width: 50%;
+}
+  .bottom__over-box,
+  .bottom2__over-box  {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative; 
+  }
+  .bottom__register-form,
+  .bottom2__register-form  {
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    top: -300px;
+    left: 49%;
+    transform: translate(-50%, 0);
+    transition: all .8s; 
+  }
+  .bottom__top-form,
+  .bottom2__top-form {
+    text-align: center; 
+  }
+    .bottom__top-form p,
+    .bottom2__top-form p {
+      text-transform: uppercase;
+      color: #fff; 
+  }
+  .bottom__top-form input,
+  .bottom2__top-form input {
+      margin: 10px auto;
+      padding: 10px 36px;
+      border: 2px solid white;
+      outline: none;
+      display: block;
+      background-color: unset;
+      color: #fff; 
+  }
+  .bottom__top-form input::placeholder,
+  .bottom2__top-form input::placeholder {
+        color: #fff; 
+   }
+    .bottom__top-form button,
+    .bottom2__top-form button  {
+      padding: 12px 70px;
+      margin: 0 auto;
+      background-color: #0f87c6;
+      border: none;
+      color: #fff;
+      text-transform: uppercase;
+      outline: none; 
+    }
+  .bottom__form,
+  .bottom2__form {
+    position: absolute;
+    top: 25%;
+    left: 56%;
+    transform: translate(-50%, 0);
+    transition: all .6s; 
+  }
+    .bottom__form input,
+    .bottom2__form input {
+      margin: 10px 10px;
+      padding: 10px 36px;
+      border: 2px solid #fff;
+      outline: none;
+      background-color: unset;
+      color: #fff; 
+    }
+    .bottom__form input::placeholder,
+    .bottom2__form input::placeholder {
+        color: #fff;
+        text-transform: uppercase; 
+      }
+    .bottom__form button,
+    .bottom2__form button {
+      padding: 12px 0;
+      margin: 0 9px;
+      border-radius: 11px;
+      width: 185px;
+      background-color: #0f87c6;
+      border: none;
+      color: #fff;
+      text-transform: uppercase;
+      outline: none; 
+    }
+  .bottom__register-text{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, 0); 
+  }
+  .bottom2__register-text {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, 0);
+  }
+  .bottom__register-text p,
+  .bottom2__register-text p  {
+      font-weight: 500; 
+  }
+  .bottom__register-text p a,
+  .bottom2__register-text p a {
+        text-decoration: none;
+        color: black; 
+  }
